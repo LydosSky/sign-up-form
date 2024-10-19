@@ -42,7 +42,7 @@ img {
     display: block;
     max-inline-size: 100%;
 }
-/* ======================================================= */
+/* ======================================================================= */
 
 body {
     height: 100vh;
@@ -93,19 +93,50 @@ body {
     text-decoration: underline;
     color: white;
 }
-
+/* ====================================================================== */
 .right-container {
     display: flex;
     flex-direction: column;
 }
 
 .right-container .upper-container {
-    padding: 4rem;
-    margin-top: 2rem;
+    padding: 3rem 4rem;
     font-size: 2rem;
     font-weight: bold;
 }
 
 .right-container p:last-of-type {
     margin-top: 2rem;
+}
+
+.right-container .card {
+    flex-wrap: wrap;
+    height: 20rem;
+    box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 4rem;
+}
+
+.right-container button {
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #00a9de;
+}
+
+.right-container form p {
+    font-weight: bold;
+}
+
+.right-container form p a {
+    text-decoration: none;
+    color: #00a9de;
+}
+
+.right-container .confirmation {
+    padding: 4rem;
 }
