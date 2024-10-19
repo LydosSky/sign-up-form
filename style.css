@@ -60,6 +60,7 @@ body {
     text-align: center;
     color: white;
     position: relative;
+    flex-shrink: 0;
 }
 
 .logo {
@@ -70,7 +71,7 @@ body {
     align-items: center;
     padding: 1rem;
     height: 10rem;
-    margin-bottom: 20rem;
+    margin-bottom: 30rem;
 }
 
 .logo img {
@@ -91,4 +92,20 @@ body {
 .credit a {
     text-decoration: underline;
     color: white;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-container .upper-container {
+    padding: 4rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.right-container p:last-of-type {
+    margin-top: 2rem;
 }
