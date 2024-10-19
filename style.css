@@ -43,3 +43,52 @@ img {
     max-inline-size: 100%;
 }
 /* ======================================================= */
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+.left-container {
+    flex-basis: 35%;
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
+        url("./nick-wood-ghk4pUvpVy0-unsplash.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.logo {
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: 10rem;
+    margin-bottom: 20rem;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.logo h1 {
+    font-size: 5rem;
+}
+
+.credit {
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.credit a {
+    text-decoration: underline;
+    color: white;
+}
