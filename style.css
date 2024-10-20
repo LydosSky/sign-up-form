@@ -115,7 +115,6 @@ body {
     box-shadow:
         0 4px 8px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 4rem;
 }
 
 .right-container button {
@@ -139,4 +138,30 @@ body {
 
 .right-container .confirmation {
     padding: 4rem;
+}
+
+.right-container h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.right-container .inputs {
+    display: flex;
+    align-items: center;
+}
+
+.right-container .inputs div {
+    margin: 1rem 0;
+}
+
+.right-container .inputs label {
+    display: block;
+    font-size: 0.75em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.right-container .inputs input {
+    padding: 0.5rem;
+    border-radius: 0.3rem;
 }
