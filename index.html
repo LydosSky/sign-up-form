@@ -39,7 +39,7 @@
         <p>You <em>know</em> you want to.</p>
       </div>
       <div class="lower-container">
-        <form method="post" id="" action="">
+        <form method="post" id="" action="#">
           <div class="card">
             <h2>Let's do this!</h2>
             <div class="inputs">
@@ -54,7 +54,14 @@
                 </div>
                 <div>
                   <label for="password">Password</label>
-                  <input id="password" type="password" name="password" />
+                  <input
+                    id="password"
+                    type="password"
+                    name="password"
+                    min="3"
+                    max="8"
+                    required
+                  />
                 </div>
               </div>
               <div class="inputs-right">
@@ -73,6 +80,9 @@
                     id="confirm_password"
                     type="password"
                     name="confirm_password"
+                    min="3"
+                    max="8"
+                    required
                   />
                 </div>
               </div>
